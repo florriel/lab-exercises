@@ -9,7 +9,7 @@ my.vector <- c(my.num, initials)
 vector.sum <- sum(my.vector)
 
 # Describe why this doesn't work: 
-# 
+# You can't add a number and a string vector together. They are not the same type of object.
 
 install.packages("stringr")
 
