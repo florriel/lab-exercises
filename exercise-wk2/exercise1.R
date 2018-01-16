@@ -18,12 +18,12 @@ my.line <- "Hey, hey, this is the library"
 print(str_length(my.line))
 
 # Describe why this doesn't work: 
-# 
+# This counts all the spaces and punctuation as well as the letters.
 
 said.the.famous <- paste(my.line, " - ", initial)
 
 # Describe why this doesn't work: 
-# 
+# Initial is not defined yet.
 
 
 ## Part 2 - Vector and function practice
